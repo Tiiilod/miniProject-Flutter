@@ -12,12 +12,11 @@ class _MiniProjectState extends State<MiniProject> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Welcome"),
+        title: Text("Welcome"),
         backgroundColor: Colors.amber,
       ),
       body: Column(
         children: [
-          // Container besar dengan PageView
           Container(
             height: 250,
             width: double.infinity,
@@ -51,9 +50,8 @@ class _MiniProjectState extends State<MiniProject> {
             ),
           ),
 
-          const SizedBox(height: 20),
+          SizedBox(height: 20),
 
-          // Row container kecil dengan text
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
