@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
-
-
+import 'package:murojaah_project/projectJumat/slicingJumat.dart';
+import 'package:murojaah_project/projectKamis/slicingKamis.dart';
 import 'miniProject.dart';
 
 class SplashScreen extends StatelessWidget {
@@ -11,7 +11,7 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedSplashScreen(
       splash: Icon(Icons.home),
-      nextScreen: MiniProject(),
+      nextScreen: Slicingjumat(),
       splashTransition: SplashTransition.fadeTransition,
       backgroundColor: Colors.white,
       duration: 2000,

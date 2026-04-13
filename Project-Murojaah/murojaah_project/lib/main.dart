@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:murojaah_project/miniProject.dart';
+import 'package:murojaah_project/projectJumat/slicingJumat.dart';
+import 'package:murojaah_project/projectKamis/slicingKamis.dart';
 import 'package:murojaah_project/splashscreen.dart';
 
 void main() {
@@ -13,12 +15,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Murojaah Project',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: const SplashScreen(),
+      home: SplashScreen(),
     );
   }
 }
