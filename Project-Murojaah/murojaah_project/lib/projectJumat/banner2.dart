@@ -28,6 +28,7 @@ class Banner2 extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10),
               ),
             ),
+            SizedBox(width: 20,),
             Container(
               height: 200,
               width: 420,
